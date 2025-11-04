@@ -6,9 +6,9 @@
 	import Button from '$lib/components/ui/button/button.svelte';
 </script>
 
-<nav class="flex flex-row p-2">
+<nav class="flex flex-row px-2 pb-2">
 	{#each routes as route (route.path)}
-		<Button variant="ghost" onclick={() => goto(resolve(route.path as Pathname))}>
+		<Button variant="link" onclick={() => goto(resolve(route.path as Pathname))}>
 			{route.title}
 		</Button>
 	{/each}
