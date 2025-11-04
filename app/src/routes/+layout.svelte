@@ -4,8 +4,10 @@
 	import { ModeWatcher } from 'mode-watcher';
 	import { getTitleByPathname } from '$lib/assets/routes';
 	import { page } from '$app/state';
+	import SiteHeader from '$lib/components/ui/site-header.svelte';
 
 	let { children } = $props();
+
 	let pageTitle = $derived(getTitleByPathname(page.url.pathname));
 </script>
 
@@ -16,4 +18,5 @@
 
 <ModeWatcher />
 
+<SiteHeader />
 {@render children()}
