@@ -10,6 +10,14 @@
 			"options": {
 				"parser": "svelte"
 			}
+		},
+		{
+			"files": "*.md",
+			"options": {
+				"parser": "markdown",
+				"proseWrap": "always",
+				"printWidth": 80
+			}
 		}
 	],
 	"tailwindStylesheet": "./src/app.css"
