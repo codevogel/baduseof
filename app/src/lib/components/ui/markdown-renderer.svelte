@@ -30,5 +30,12 @@
 </script>
 
 <Article>
-	<Markdown md={mdContent} {plugins} />
+	<Markdown md={mdContent} {plugins}>
+		{#snippet a(props)}
+			{@const { children, ...rest } = props}
+			<a class="text-primary" {...rest}>
+				{@render children?.()}
+			</a>
+		{/snippet}
+	</Markdown>
 </Article>
