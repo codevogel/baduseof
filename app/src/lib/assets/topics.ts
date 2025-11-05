@@ -1,4 +1,5 @@
 import ai from '$lib/assets/content/topics/ai.md?raw';
+import qr from '$lib/assets/content/topics/qr.md?raw';
 
 export type Topic = {
 	slug: string;
@@ -11,5 +12,10 @@ export const topics: Topic[] = [
 		slug: 'ai',
 		title: 'AI',
 		content: ai
+	},
+	{
+		slug: 'qr',
+		title: 'QR Codes',
+		content: qr
 	}
 ];
