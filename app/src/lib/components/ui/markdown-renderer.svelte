@@ -37,5 +37,11 @@
 				{@render children?.()}
 			</a>
 		{/snippet}
+		{#snippet blockquote(props)}
+			{@const { children, ...rest } = props}
+			<blockquote class="[&>p]:before:content-none [&>p]:after:content-none" {...rest}>
+				{@render children?.()}
+			</blockquote>
+		{/snippet}
 	</Markdown>
 </Article>
