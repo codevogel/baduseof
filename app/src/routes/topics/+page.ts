@@ -13,7 +13,7 @@ export const load: PageLoad = () => {
 function appendTopicList(md: string, topics: Topic[]) {
 	const sortedTopics = topics.slice().sort((a, b) => a.title.localeCompare(b.title));
 	sortedTopics.forEach((topic) => {
-		md += `- [${topic.title}](/topics/${topic.slug})\n`;
+		md += `- [${topic.title}](/topics/${topic.slug}) - _${topic.flavorText}_\n`;
 	});
 	return md;
 }
