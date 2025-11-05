@@ -1,3 +1,5 @@
+import { topics } from '$lib/assets/topics';
+
 export type Route = {
 	path: string;
 	title: string;
@@ -19,18 +21,6 @@ export const routes: Route[] = [
 		path: '/about',
 		title: 'About',
 		name: 'about'
-	}
-];
-
-export type Topic = {
-	slug: string;
-	title: string;
-};
-
-export const topics: Topic[] = [
-	{
-		slug: 'ai',
-		title: 'AI'
 	}
 ];
 
