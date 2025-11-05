@@ -3,24 +3,20 @@ import { topics } from '$lib/assets/topics';
 export type Route = {
 	path: string;
 	title: string;
-	name: string;
 };
 
 export const routes: Route[] = [
 	{
 		path: '/',
-		title: 'Home',
-		name: 'home'
+		title: 'Home'
 	},
 	{
-		path: '/overview',
-		title: 'Overview',
-		name: 'overview'
+		path: '/topics',
+		title: 'Topics'
 	},
 	{
 		path: '/about',
-		title: 'About',
-		name: 'about'
+		title: 'About'
 	}
 ];
 

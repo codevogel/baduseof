@@ -1,9 +1,9 @@
 import type { PageLoad } from './$types';
 
-import overview from '$lib/assets/content/pages/overview.md?raw';
+import topics from '$lib/assets/content/pages/topics.md?raw';
 
 export const load: PageLoad = () => {
 	return {
-		mdContent: overview
+		mdContent: topics
 	};
 };
