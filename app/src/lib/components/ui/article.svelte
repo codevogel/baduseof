@@ -3,7 +3,7 @@
 </script>
 
 <article
-	class="mx-auto my-8 prose max-w-lg bg-background p-8 dark:prose-invert prose-blockquote:border-primary"
+	class="mx-auto prose max-w-lg rounded-lg border bg-background p-8 shadow-2xl dark:prose-invert prose-blockquote:border-primary"
 >
 	{@render children()}
 </article>
