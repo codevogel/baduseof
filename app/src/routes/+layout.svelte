@@ -5,6 +5,8 @@
 	import { getTitleByPathname } from '$lib/assets/routes';
 	import { page } from '$app/state';
 	import SiteHeader from '$lib/components/ui/site-header.svelte';
+	import Main from '$lib/components/ui/main.svelte';
+	import Footer from '$lib/components/ui/footer.svelte';
 
 	let { children } = $props();
 
@@ -18,5 +20,10 @@
 
 <ModeWatcher />
 
-<SiteHeader />
-{@render children()}
+<div class="flex min-h-svh flex-col">
+	<SiteHeader />
+	<Main>
+		{@render children()}
+	</Main>
+	<Footer />
+</div>
