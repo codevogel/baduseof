@@ -1,9 +1,9 @@
 <script>
-	import MarkdownRenderer from '$lib/components/ui/markdown-renderer.svelte';
+	import MarkdownPage from '$lib/components/ui/markdown-page.svelte';
 
 	let { data } = $props();
 
 	let mdContent = $derived(data.mdContent);
 </script>
 
-<MarkdownRenderer {mdContent} />
+<MarkdownPage {mdContent} />
