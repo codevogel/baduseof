@@ -1,4 +1,4 @@
-import ai from '$lib/assets/content/ai.md?raw';
+import ai from '$lib/assets/content/topics/ai.md?raw';
 
 export type Topic = {
 	slug: string;

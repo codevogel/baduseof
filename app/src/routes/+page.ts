@@ -1,6 +1,6 @@
 import type { PageLoad } from './$types';
 
-import home from '$lib/assets/content/home.md?raw';
+import home from '$lib/assets/content/pages/home.md?raw';
 
 export const load: PageLoad = () => {
 	return {
