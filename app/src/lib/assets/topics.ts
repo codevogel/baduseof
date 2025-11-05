@@ -10,7 +10,7 @@ export type Topic = {
 export const topics: Topic[] = [
 	{
 		slug: 'ai',
-		title: 'AI',
+		title: 'Artifical Intelligence',
 		content: ai
 	},
 	{
