@@ -11,6 +11,7 @@
 	import { ShikiHighlighter } from '$lib/utils/shiki';
 	import rehypeShikiFromHighlighter from '@shikijs/rehype/core';
 	import Article from '$lib/components/ui/article.svelte';
+	import rehypeRaw from 'rehype-raw';
 
 	let { mdContent }: { mdContent: string } = $props();
 
@@ -26,7 +27,13 @@
 		rehypePlugin: [rehypeSlug]
 	} satisfies Plugin;
 
-	const plugins: Plugin[] = [gfmPlugin(), shikiPlugin, slugPlugin];
+	const rawPlugin = {
+		rehypePlugin: [
+			rehypeRaw
+		]
+	} satisfies Plugin;
+
+	const plugins: Plugin[] = [gfmPlugin(), shikiPlugin, rawPlugin, slugPlugin];
 </script>
 
 <Article>
