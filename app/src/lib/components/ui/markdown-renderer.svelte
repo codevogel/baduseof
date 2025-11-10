@@ -15,6 +15,8 @@
 
 	let { mdContent }: { mdContent: string } = $props();
 
+	const md = $state(mdContent);
+
 	const shikiPlugin = {
 		rehypePlugin: [
 			rehypeShikiFromHighlighter,
@@ -28,27 +30,12 @@
 	} satisfies Plugin;
 
 	const rawPlugin = {
-		rehypePlugin: [
-			rehypeRaw
-		]
+		rehypePlugin: [rehypeRaw]
 	} satisfies Plugin;
 
 	const plugins: Plugin[] = [gfmPlugin(), shikiPlugin, rawPlugin, slugPlugin];
 </script>
 
 <Article>
-	<Markdown md={mdContent} {plugins}>
-		{#snippet a(props)}
-			{@const { children, ...rest } = props}
-			<a class="text-primary" {...rest}>
-				{@render children?.()}
-			</a>
-		{/snippet}
-		{#snippet blockquote(props)}
-			{@const { children, ...rest } = props}
-			<blockquote class="[&>p]:before:content-none [&>p]:after:content-none" {...rest}>
-				{@render children?.()}
-			</blockquote>
-		{/snippet}
-	</Markdown>
+	<Markdown {md} {plugins}></Markdown>
 </Article>

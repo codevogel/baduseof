@@ -1,52 +1,38 @@
-# Bad Use Of
+<!-- markdownlint-disable MD033 -->
 
-_A gallery of bad ideas._
+# Bad Ideas Exist
 
 We've all heard the saying:
 
-> **"There's no such thing as a bad idea."**
+> **"There is no such thing as a bad idea."**
 
-Well... sorry to break it to you, but **some ideas _are_, in fact, bad.** Or -
-more generously - _unhelpful, inefficient, and, occasionally - hilarious._
+Well, sorry to break it to you, but **bad ideas do exist**. They can lead to
+wasted time, resources, and even harm.
 
-And the thing is: **we all do this.** Any human being makes questionable
-decisions all the time. **Bad Use Of** collects those moments - not to shame
-(okay, maybe a little), but mostly so we can:
+> Q: Does that mean I should feel bad for having a bad idea?
 
-- Notice our own bad ideas
-- Laugh at them
-- And _maybe_ stop doing it
+No. In fact, recognizing and learning from bad ideas is a crucial part of
+growth.
 
----
+We all have bad ideas from time to time. And that's okay. Bad ideas only become
+problematic when we refuse to acknowledge that they are, in fact, bad.
 
-## **Some Examples of Bad Ideas**
+> Q: So, how do I know if my idea is bad?
 
-You've probably seen at least one of these. Probably today. Heck, there's a good
-chance that you are reading this precisely _because_ you just had one of them.
+Well, you don't. Until you do.
 
-### Asking 'Can I ask a question?'
+Sometimes, you might have to fall flat on your face to realize that an idea was
+bad. Or, you might get some feedback from others that helps you see the flaws in
+your thinking. The difficult part is being open to the idea that your idea...
+sucks.
 
-You already did. Just ask the question.
+This site is dedicated to cataloging bad ideas. To poke some fun at them, but
+mostly to learn from them, and warn others about making the same mistakes.
 
-### Starting a Conversation with 'hi', and then just waiting for a response
+So, go ahead. Take a look at [the bad ideas listed here](/topics). Maybe you'll
+be faced with an idea that you once thought was great, but now realize was
+actually pretty terrible.
 
-You're not opening a ceremony. Say what you need. Save everyone time.
-
-### Scanning that random QR code you found on the street
-
-It's just so tempting, isn't it? But who knows where it leads?
-
-### Using AI as a Source of Truth
-
-AI is great at sounding confident, not at being correct. Use it to **think
-with**, not to **replace thinking.**
-
----
-
-## Want More?
-
-Browse the full list of bad ideas we've lovingly compiled for you. Or suggest
-one we've missed — we're sure there are plenty.
-
-- → [**View Topics**](/topics)
-- → [**Submit a New One**](https://github.com/codevogel/bad-use-of/)
+Want to aid in our efforts to document bad ideas? Then please check out
+[the GitHub repository](https://github.com/codevogel/badidea.fyi) to learn how
+you can submit your own bad idea.
